@@ -19,7 +19,7 @@ describe('visual validation', () => {
 
   afterEach(() => cy.eyesClose())
 
-  it('should look good', () => {
+  it.skip('should look good', () => {
     cy.eyesCheckWindow('empty todo list')
 
     todoPage.addTodo('Clean room')
